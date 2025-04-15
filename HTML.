@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Corte de Cabelo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Barbearia Style</h1>
+        <p>Agende seu corte de cabelo com facilidade!</p>
+    </header>
+    <main>
+        <section class="prices">
+            <h2>Preços</h2>
+            <ul>
+                <li>Corte Masculino: R$ 30,00</li>
+                <li>Corte Feminino: R$ 50,00</li>
+                <li>Barba: R$ 20,00</li>
+                <li>Corte Infantil: R$ 25,00</li>
+            </ul>
+        </section>
+        <section class="schedule">
+            <h2>Horários Disponíveis</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Horário</th>
+                        <th>Disponibilidade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>09:00 - 10:00</td>
+                        <td>Disponível</td>
+                    </tr>
+                    <tr>
+                        <td>10:00 - 11:00</td>
+                        <td>Disponível</td>
+                    </tr>
+                    <tr>
+                        <td>11:00 - 12:00</td>
+                        <td>Indisponível</td>
+                    </tr>
+                    <tr>
+                        <td>14:00 - 15:00</td>
+                        <td>Disponível</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Barbearia Style. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
